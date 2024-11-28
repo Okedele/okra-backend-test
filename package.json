@@ -1,0 +1,27 @@
+{
+  "name": "okra-backend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch ./src --ext ts --exec \"ts-node ./src/app.ts\""
+  },
+  "keywords": [],
+  "author": "Promise Okedele",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "zod": "^3.23.8"
+  }
+}
